@@ -1,77 +1,39 @@
 # Format of this document:
 # Each top-level key is an item that is referneced by any section schedule's "content" array
 # Each key has a "name" attribute (rendered on the calendar), a "page" attribute (which contains a link to the lesson) and an optional "type" attribute, which is a key into the _data/config.yml "types" dictionary.
-1a:
-  name: Orientation & Requirements
+1g:
+  name: Orientation & Installation
   page: 
-1b:
-  name: Typescript & Test Driven Development
+2g:
+  name: Unix skills
   page: 
-2a:
-  name: Test Adequacy
+3g:
+  name: HPC skills
   page: 
-2b:
-  name: Code-Level Design Principles
+4g:
+  name: RNA-seq or genomics practice
   page: 
-3a:
-  name: Interaction-Level Design Patterns
+1r:
+  name: Download R and RStudio
   page: 
-3b:
-  name: Concurrency Patterns
+2r:
+  name: What is Data?
   page: 
-4a:
-  name: Software Processes & Agile
+3r:
+  name: Data carpentry
   page: 
-4b:
-  name: React Part 1 (Introduction)
+4r:
+  name: Data Carpentry (Cont.)
   page: 
-5a:
-  name: React Part 2 (Hooks)
+5r:
+  name: Plotting and scheming
   page: 
-5b:
-  name: Application Level Patterns
+6r:
+  name: Graphical design
   page: 
-6a:
-  name: Tests with Larger Scope
+7r:
+  name: Advanced topics or Open work
   page: 
-6b:
-  name: Work on project (Discuss project plan/revisions)
-7a:
-  name: Work on project (Discuss project plan/revisions)
-7b:
-  name: Security
-  page: 
-8a:
-  name: Continuous Development
-  page: 
-8b:
-  name: Midterm Review
-9a:
-  name: Midterm Exam
-9b:
-  name: Principles for Cloud Deployment
-  page: 
-10a:
-  name: Work on project
-10b:
-  name: Open Source
-  page: 
-10c:
-  name: Dependency Management
-  page: 
-11a:
-  name: Work on Project
-11b:
-  name: Ethics and Equity in SE
-  page: 
-12a:
-  name: Work on Project / Mini-Demo
-12b:
-  name: Work on Project
-13a:
-  name: Presentations
-13b:
-  name: Presentations
 pitch:
   name: Elevator Pitch
 posters:
