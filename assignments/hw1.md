@@ -23,7 +23,7 @@ In this homework, you will be practicing your Unix skills. These are foundationa
 
 Please play this browser-based game and complete the scavengar hunt as best as you are able. Make notes of what you find interesting, challenging, and where you stop the game.
 
-[Terminus](https://www.mprat.org/Terminus/){: .center}
+[Terminus](https://www.mprat.org/Terminus/){: .text-center}
 
 ---
 
