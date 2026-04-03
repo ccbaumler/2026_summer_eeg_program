@@ -10,6 +10,6 @@ This site is currently a living repository of the materials covered by this cour
 
 Looking forward to learning and growing with you!
 
-All the best,
+All the best,\
 Colton
 {: .fs-5 }
