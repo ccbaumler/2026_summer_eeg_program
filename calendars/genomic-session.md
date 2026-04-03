@@ -4,8 +4,8 @@ title: Genomics Session Calendar
 parent: Calendar
 permalink: /calendar/genomics
 instructor: Colton
-location: Virtual (See announcement for Zoom Link)
-dates: TBD (Tuesday & Thursday 10 am (PST)/1 pm (EST))
+location: \nVirtual (See announcement for Zoom Link)
+dates: Tuesday & Thursday 10 am (PST)/1 pm (EST)
 weeks:
   # Each key in this dictionary is a week, and then each week has a key in [Mon, Tue, Wed, Thu, Fri].
   # Each day has keys `date` and `content`. The date is shown on the schedule, and `content` is a key into the yml file in _data/modules.yml. `content` may be an array.

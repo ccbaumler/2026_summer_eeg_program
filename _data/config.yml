@@ -1,31 +1,21 @@
 deadlines:
-  '3':
+  '1':
     Wed:
-      date: 2025/09/17 12:00pm 
-      content: ip1
-  '4':
+      date: 2026/05/20 12:00pm 
+      content: h1g
+    Fri:
+      date: 2026/05/21 12:00pm
+      content: h2g
+  '2':
     Wed:
-      date: 2025/09/24 12:00pm 
-      content: tp1
-  '6':
-    Wed:
-      date: 2025/10/08 12:00pm
-      content: tp2
-  '7':
-    Wed:
-      date: 2025/10/15 12:00pm
-      content: ip2
-  '8':
-    Wed:
-      date: 2025/10/22 12:00pm
-      content: tp3
-  '13':
-    Wed:
-      date: 2025/11/25 12:00pm
-      content: tp4
+      date: 2026/05/27 12:00pm 
+      content: h3g
+    Fri:
+      date: 2026/05/29 12:00pm 
+      content: h4g
 dates:
-  firstMonday: 2025/09/03
-  numWeeks: 14
+  firstMonday: 2026/05/18
+  numWeeks: 2
 types:
   default:
     className: lesson
