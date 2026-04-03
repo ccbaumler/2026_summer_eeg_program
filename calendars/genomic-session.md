@@ -4,7 +4,7 @@ title: Genomics Session Calendar
 parent: Calendar
 permalink: /calendar/genomics
 instructor: Colton
-location: \nVirtual (See announcement for Zoom Link)
+location: Virtual   (See announcement for Zoom Link)
 dates: Tuesday & Thursday 10 am (PST)/1 pm (EST)
 weeks:
   # Each key in this dictionary is a week, and then each week has a key in [Mon, Tue, Wed, Thu, Fri].
@@ -14,15 +14,15 @@ weeks:
   '1':
     Tue:
       date: 2026/05/19
-      content: 1g
+      content: 1ag
     Thu:
       date: 2025/05/21
-      content: 2g
+      content: 1bg
   '2':
     Tue:
       date: 2025/05/26
-      content: 3g
+      content: 2ag
     Thu:
       date: 2025/05/28
-      content: 4g
+      content: 2bg
 ---

@@ -1,16 +1,16 @@
 # Format of this document:
 # Each top-level key is an item that is referneced by any section schedule's "content" array
 # Each key has a "name" attribute (rendered on the calendar), a "page" attribute (which contains a link to the lesson) and an optional "type" attribute, which is a key into the _data/config.yml "types" dictionary.
-1g:
+1ag:
   name: Orientation & Installation
   page: 
-2g:
+1bg:
   name: Unix skills
   page: 
-3g:
+2ag:
   name: HPC skills
   page: 
-4g:
+2bg:
   name: RNA-seq or genomics practice
   page: 
 h1g:
