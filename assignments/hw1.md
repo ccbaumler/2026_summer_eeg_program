@@ -23,7 +23,9 @@ In this homework, you will be practicing your Unix skills. These are foundationa
 
 Please play this browser-based game and complete the scavengar hunt as best as you are able. Make notes of what you find interesting, challenging, and where you stop the game.
 
-[Terminus](https://www.mprat.org/Terminus/){: .text-center}
+[Terminus](https://www.mprat.org/Terminus/){: .center}
+
+---
 
 ### Scavenger Hunt Across the Lands of Terminus
 
@@ -31,25 +33,35 @@ Welcome to the terminal, Scavenger! This scavenger hunt was written to help you 
 
 Follow the clues, complete the tasks, and uncover the secrets hidden in this text-based adventure. Each challenge corresponds to one of the questions below. This assignment aims to introduce you to how to talk directly with your computer to accomplish tasks (quests!). Enjoy exploring!
 
----
-
 ### Your Quest!
 
 1. Commands in the Game
     Clue: Search the depths of forest, cave, and town to find the core commands to navigate the terminal, manage files and directories, and interact with files. The magic lies in a set of 13 commands. What are those commands?
 
     1.
+
     2.
+
     3.
+
     4.
+
     5.
+
     6.
+
     7.
+
     8.
+
     9.
+
     10.
+
     11.
+
     12.
+
     13.
 
     Bonus: Discover the extra command that clears the screen!
