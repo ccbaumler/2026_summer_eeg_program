@@ -1,129 +1,162 @@
 ---
 layout: page
-title: HW01  Version Control
+title: Terminus treasure hunt
 permalink: assignments/hw1
+nav_order: 1
 parent: Assignments
 ---
 
-# Homework 1 **Due Friday Jan 31st at 2pm EST**{: .label .label-red }
+# Homework 1 **Due Wednesday May 20th at 12pm PST**{: .label .label-red }
 
-In this homework, you will be practicing using version control (`git` and [GitHub](https://github.com/)). We will be using this throughout the course extensively. Additionally, we will be requiring you to use the command line for this assignment.
+In this homework, you will be practicing your Unix skills. These are foundational skills you will be using this throughout this course and your research extensively.
 
 ## Learning goals
 
-- Understand the basic concepts of Version Control Systems (VCS)
-- Create a Github Account
-- Perform basic VCS actions
-- Understand the difference between `git` and GitHub
-- Practice VCS commands necessary for turning in homeworks
+- Understand the basic concepts of:
+    - Explain the directory structure of the computers
+    - Navigate across and within files and directories
+    - Create, copy, move, and delete files
+    - Use command line tools to edit, analyze, and compare files
+    - Identify where to go for help and to learn more
 
 ## Tasks
 
-You will be asked to perform the following series of tasks:
+Please play this browser-based game and complete the scavengar hunt as best as you are able. Make notes of what you find interesting, challenging, and where you stop the game.
 
-- Create a GitHub account
-- Clone the HW1 repo
-- Create a branch locally
-- Learn to manage conflicts
-- Push a branch to GitHub
-- Make a change to the student list
-- Open a Pull Request to the `main` branch
+[Terminus](https://www.mprat.org/Terminus/)
 
-### Create a Github account
+### Scavenger Hunt Across the Lands of Terminus
 
-You should create a free [GitHub](https://www.github.com) account if you do not already have one.
-If you have an existing GitHub account, you may use that.
+Welcome to the terminal, Scavenger! This scavenger hunt was written to help you work through and make note of your discoveries across the Terminus. As an assignment, it is a light-hearted beginning to the command line. Do your best most average to complete each clue. (This assignment will be graded for participation and not for completion.)
 
-### Clone HW1 repo
+Follow the clues, complete the tasks, and uncover the secrets hidden in this text-based adventure. Each challenge corresponds to one of the questions below. This assignment aims to introduce you to how to talk directly with your computer to accomplish tasks (quests!). Enjoy exploring!
 
-There is a very simple repo that has been set up for HW1. You can find it [here](https://github.com/cmu-crafting-software/homework01). You should clone the repo to a local directory on your machine. This should be done via the command line, and you should include the command(s) needed in your script to turn in.
+### Your Quest!
 
-### Create a branch locally
+1. Commands in the Game
+    Clue: Search the depths of forest, cave, and town to find the core commands to navigate the terminal, manage files and directories, and interact with files. The magic lies in a set of 13 commands. What are those commands?
 
-You should create a new branch of the repository, and you should name the branch with your Andrew ID as the name. This should be done via the command line, and you should include the command(s) needed in your script to turn in.
+    1.
+    2.
+    3.
+    4.
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+    11.
+    12.
+    13.
 
-### Make a change to the student list, commit locally, and manage any conflicts that might arise
+    Bonus: Discover the extra command that clears the screen!
 
-In the branch that you created, you should make a change to the `ClassRoster.md` file, adding your name and Andrew ID to the Class Roster. You should then commit that change to your local branch; please ensure you use a descriptive commit message!
+    \
 
-A quick note about Git commit messages: technically you can write them any way you want, and there are a few different conventions out there, but _the most common_ convention is this:
+2. HelpfulTA’s Unique Command
 
-- Typically just one line:
-  - Start with a capital letter.
-  - Write in the _imperative voice_: for instance, you'd write **"Fix bug"** and not ~~"Fixed bug"~~ or ~~"Fixes bug"~~.
-  - No ending punctuation.
-  - 50 characters or less.
-- Commit messages _can_ have multiple lines but you probably won't use that in this class.
+Clue: There is a special command shared by the HelpfulTA. It’s “combo” the first step to finding your magical locker!
 
-Please use this convention for your commit messages in this class.
+\
 
-Commiting should be done via the command line, and you should include the command(s) needed in your script to turn in.
+3. AthenaCluster Combination
 
-### Push branch to GitHub
+Clue: Solve the riddle of the AthenaCluster. What single word grants you entry?
 
-Once you have committed your change, you should push the change on the branch to the GitHub repository. This should be done via the command line, and you should include the command(s) needed in your script to turn in.
+\
 
-### Open a Pull Request to the main branch
+4. Magic Locker Mystery
 
-Now that the commit is visible on the GitHub site, you should open a Pull Request from your personal branch, to the `main` branch. Again, don't forget to have a descriptive, convention-following message for the Pull Request. You do not need to do this via the command line, you may use the GitHub website for opening the pull request.
+Clue: Investigate the Magic Locker. Does it work as expected, or is something incomplete? Document your findings.
 
-### Manage merge conflicts
+\
 
-Merge conflicts can be very annoying, and will be a cause of headaches for you. We want you to try and follow these steps to (artificially) create a merge conflict, so that you can resolve the merge conflict. Here are the steps to follow (replacing `[andrewID]` with your own Andrew ID):
+5. BackSign and NostalgiaForHome
 
-- In the branch `[andrewID]`, create a text file called `student_facts.txt`
-- In this file, write what year and college you are in.
-- Commit this change and include a message about what you just did.
-- Create a new branch called `new-[andrewID]` and switch to that branch.
-- Open up `student_facts.txt` and delete the previous line you wrote and now only include a sentence about a fun fact about yourself.
-- Commit this change and include a message about what you just did.
-- Switch back to the branch `[andrewID]`.
-- Open up `student_facts.txt` and append to this file a sentence about what programming languages and/or coding classes you have taken.
-- Commit this change and include a message about what you just did.
-- While in `[andrewID]`, merge this branch with `new-[andrewID]`.
-- You will see that there are conflicts.
-- To resolve these conflicts, open on the file `student_facts.txt` and edit the file such that there are three different lines with (and in this order):
-  - A sentence about your year and major.
-  - A sentence about what programming languages and/or coding classes you have taken.
-  - A sentence with a fun fact about yourself.
-  - Commit this change and include a message about what you just did.
-- While in `[andrewID]`, create a file with all of the terminal commands you used so far.
-  The appropriate steps here should be done via the command line, and you should include the command(s) needed in your script to turn in.
+Clue: A warning awaits on the BackSign and NostalgiaForHome. What command do they caution against?
 
-## Resources
+\
 
-1. <https://guides.github.com/>
-2. <https://guides.github.com/activities/hello-world/>
-3. <https://gist.github.com/davfre/8313299>
-4. <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository>
+Bonus: How can you avoid the challenge this command presents? Suggest a way to simplify navigating nested directories.
 
-## Tips and Suggestions
+\
 
-We are requiring you to learn to use the command line interface for this assignment. However, if you find yourself struggling, you might want to try using the `git` client built into [Visual Studio Code](https://code.visualstudio.com/) first, then re-doing the assignment with the command line.
+6. A Brush with Romance
+Clue: Who is the “pretty cute” student you meet after a chance collision at a magical academy?
+___________
 
-Writing a good commit message is hard! Don't feel bad if it takes a bit of thinking, or if you are not happy with your first version. You can use `git` to _amend_ a commit message even after you've already committed, as long as you haven't pushed yet.
+7. An Elder’s Emoji
+Clue: Find the OldManuscript and reveal the hidden emoji within.
 
-One pro tip with `git`. It can often be the case that your local directory can get really messed up. Feel free to delete your local directory and start over. This is a common technique when working with `git`.
+\
 
-## Deadlines and Deliverables
+8. At StairCase’s End
 
-**Due Date**: Friday Jan 31st at 2pm.
-You may use up to two (2) late days, out of six total. To use a late day, simply message us on Slack to let us know that you will be using a late day.
+Clue: Ascend the StairCase to its end. What lies in wait for you there?
 
-**Deliverable**: For this assignment, you have two deliverables.
-You will turn in a script that shows what commands you used at the command line. You should turn this in by sending it to both instructors and the TA in a group message via Slack.
-Your commits to the repository will be viewable by us, and we will use them for grading (you might want to confirm that they are visible by using the GitHub web interface).
+\
 
-## Assignment Review
+9. To Feed a Family
 
-Because this is a new class, we are asking you to fill out a short survey to help us calibrate the homeworks. This survey is ungraded, but your input will be very valuable for us in improving the course both for this semester, and for future years. [**Fill out a short survey to help us improve the course!**](https://forms.gle/FuStF6Xr1Q7hvW3a8)
+Clue: Use your file management skills from the Artisian’s shop to double the Farmer’s food on the Farm. What was the command?
 
-## Grading
+\
 
-The total assignment is worth 100 points.
+10. A CryingMan’s House
 
-| Item                        | Points  |
-| --------------------------- | ------- |
-| Make and commit change      | 50      |
-| Correctly open Pull Request | 50      |
-| **Total**                   | **100** |
+Clue: Use your file management skills from the Marketplace to provide him with shelter. What was the command?
+
+\
+
+11. CaveOfDisgustingTrolls Cage Mystery
+
+Clue: Deep in the CaveOfDisgustingTrolls lies a Cage. What’s imprisoned there?
+
+\
+
+Bonus:  Can you use the mv command to relocate it? Is something wrong?
+
+\
+
+#### Challenge Quests
+
+Great work Scavenger, you’ve made it pretty far but there’s more to explore. Questions 12-15 are some optional challenges for you to attempt.
+
+12. Password for sudo
+Clue: Seek out the password hidden within MoreKernelFiles. What is the password, and where did you find it?
+
+\
+
+13. sudo Command to Paradise
+Clue: Unlock the path to Paradise with the sudo command. What is the exact syntax that led to Paradise?
+
+\
+
+14. Message in Paradise
+Clue: Upon reaching Paradise, what is the final (and a bit anti-climactic) message you uncover?
+
+\
+
+15. Major Bugs in the Game
+Clue: Document the two major bugs that hindered gameplay. Can you identify and describe them?
+
+\
+\
+
+Reflection
+16. Describe Your Experience
+In a paragraph, answer the following prompts:
+Have you ever played a game like this before? Did you enjoy playing this game? Why, or why not?
+
+\
+\
+\
+\
+\
+\
+\
+\
+
+Congratulations, Scavenger!
+You have reached Paradise in Terminus and begun your journey using the command line. Data scientists, researchers, and many others use the commands you learned in this game daily. These are just the first of many tools you’ll need for your Adventures in Data Science, and we look forward to introducing you to more.
