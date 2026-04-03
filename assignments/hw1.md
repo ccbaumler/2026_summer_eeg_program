@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terminus treasure hunt
-permalink: assignments/hw1
+permalink: /assignments/hw1
 nav_order: 1
 parent: Assignments
 ---
