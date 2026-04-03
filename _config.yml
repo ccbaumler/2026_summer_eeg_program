@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: STS115
-tagline: 'STS115: Adventures in Data Science'
-description: A broad template for yearly course websites
+title: EEG
+tagline: 'EEG: Ecological and Evolutionary Genomics'
+description: The Ecological and Evolutionary Genomics program website for UC Davis and Howard University
 author: Colton Baumler
-baseurl: '/my-course-template' # the subpath of your site, e.g. /blog
+baseurl: '/2026_summer_eeg_program' # the subpath of your site, e.g. /blog
 url: 'https://ccbaumler.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", 'README.md']
 logo: 
@@ -25,17 +25,26 @@ logo:
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 color_scheme: light
+callouts:
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+  important:
+    title: Important
+    color: blue
+enable_copy_code_button: true
 search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Canvas:
-    - 'https://kevinl.info'
+  This site's GitHub:
+    - 'https://github.com/ccbaumler/2026_summer_eeg_program'
   Just the Class on GitHub:
     - 'https://github.com/kevinlin1/just-the-class'
-  Just Cheese!:
-    - 'https://en.wikipedia.org/wiki/Cheese'
-footer_content: 'Colton Baumler &copy; 2025 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
+footer_content: 'Colton Baumler &copy; 2026 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
 
 # Collections for website data
 collections:
@@ -91,3 +100,4 @@ liquid:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
