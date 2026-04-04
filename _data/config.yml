@@ -1,6 +1,5 @@
 sections:
   genomics:
-#    numWeeks:2
     deadlines:
       '1':
         Wed:

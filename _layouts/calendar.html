@@ -17,7 +17,7 @@ layout: default
 {% assign days = "Mon,Tue,Wed,Thu,Fri" | split: "," %}
 
 {% comment %} Use the section-specific week count {% endcomment %}
-{% for wk in (1..section_config.numWeeks) %}
+{% for wk in (1..section_config.dates.numWeeks) %}
   {% assign wID = wk | append: "" %}
   <tr>
   <td class="week-label">Week {{wID}}</td>
@@ -44,10 +44,11 @@ layout: default
 
         {% for c in week[day].content %}
           {% assign m = site.data.modules[c] %}
-          {% assign className = site.data.sections.types.default.className %}
+          {% assign className = section_config.types.default.className %}
           {% if site.data.config.types[m.type] %}
-            {% assign className = site.data.config.types[m.type].className %}
+            {% assign className = section_config.types[m.type].className %}
           {% endif %}
+
           <div class="content {{className}}">
             {% if m.page %}
               <a href="{{site.baseurl}}{{ m.page }}">{{ m.name }}</a>
