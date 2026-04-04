@@ -26,22 +26,24 @@ sections:
   programming:
     deadlines:
       '1':
-        Wed:
-          date: 2026/05/20 12:00pm 
-          content: h1g
         Fri:
-          date: 2026/05/21 12:00pm
-          content: h2g
+          date: 2026/06/10 12:00pm
+          content: h1r
       '2':
-        Wed:
-          date: 2026/05/27 12:00pm 
-          content: h3g
         Fri:
-          date: 2026/05/29 12:00pm 
-          content: h4g
+          date: 2026/06/17 12:00pm 
+          content: h2r
+      '3':
+        Fri:
+          date: 2026/06/24 12:00pm
+          content: h3r
+      '2':
+        Fri:
+          date: 2026/06/31 12:00pm 
+          content: h4r
     dates:
-      firstMonday: 2026/05/18
-      numWeeks: 7
+      firstMonday: 2026/06/06
+      numWeeks: 5
     types:
       default:
         className: lesson
