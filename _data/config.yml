@@ -1,23 +1,50 @@
-deadlines:
-  '1':
-    Wed:
-      date: 2026/05/20 12:00pm 
-      content: h1g
-    Fri:
-      date: 2026/05/21 12:00pm
-      content: h2g
-  '2':
-    Wed:
-      date: 2026/05/27 12:00pm 
-      content: h3g
-    Fri:
-      date: 2026/05/29 12:00pm 
-      content: h4g
-dates:
-  firstMonday: 2026/05/18
-  numWeeks: 2
-types:
-  default:
-    className: lesson
-  holiday:
-    className: holiday
+sections:
+  genomics:
+#    numWeeks:2
+    deadlines:
+      '1':
+        Wed:
+          date: 2026/05/20 12:00pm 
+          content: h1g
+        Fri:
+          date: 2026/05/21 12:00pm
+          content: h2g
+      '2':
+        Wed:
+          date: 2026/05/27 12:00pm 
+          content: h3g
+        Fri:
+          date: 2026/05/29 12:00pm 
+          content: h4g
+    dates:
+      firstMonday: 2026/05/18
+      numWeeks: 2
+    types:
+      default:
+        className: lesson
+      holiday:
+        className: holiday
+  programming:
+    deadlines:
+      '1':
+        Wed:
+          date: 2026/05/20 12:00pm 
+          content: h1g
+        Fri:
+          date: 2026/05/21 12:00pm
+          content: h2g
+      '2':
+        Wed:
+          date: 2026/05/27 12:00pm 
+          content: h3g
+        Fri:
+          date: 2026/05/29 12:00pm 
+          content: h4g
+    dates:
+      firstMonday: 2026/05/18
+      numWeeks: 7
+    types:
+      default:
+        className: lesson
+      holiday:
+        className: holiday

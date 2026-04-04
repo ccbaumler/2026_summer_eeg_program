@@ -1,6 +1,7 @@
 ---
 layout: calendar
 title: R Workshop Calendar
+section: programming
 parent: Calendar
 permalink: /calendar/r
 instructor: Colton Baumler

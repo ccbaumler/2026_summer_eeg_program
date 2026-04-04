@@ -1,6 +1,7 @@
 ---
 layout: calendar
 title: Genomics Session Calendar
+section: genomics
 parent: Calendar
 permalink: /calendar/genomics
 instructor: Colton
