@@ -33,11 +33,9 @@ layout: default
           <div class="date">{{ deadline.date | date: "%a, %b %d" }}</div>
           <div class="content assignment">
             {% assign m = site.data.modules[deadline.content] %}
-            
             {% if m.page %}
               <a href="{{site.baseurl}}{{ m.page }}">{{ m.name }}</a>
             {% endif %}
-            
             <div class="deadline">Due at {{ deadline.date | date: "%I:%M %P" }}</div>
           </div>
         {% elsif week[day] %}
