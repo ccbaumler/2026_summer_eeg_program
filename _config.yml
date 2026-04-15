@@ -19,7 +19,7 @@ description: The Ecological and Evolutionary Genomics program website for UC Dav
 author: Colton Baumler
 baseurl: '/2026_summer_eeg_program' # the subpath of your site, e.g. /blog
 url: 'https://ccbaumler.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", 'README.md']
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", 'README.md', 'vendor/']
 logo: 
 
 # Theme settings
