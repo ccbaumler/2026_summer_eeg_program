@@ -14,37 +14,37 @@ weeks:
   # This schedule data is unioned with the deadlines in _data/config.yml
   '1':
     Tue:
-      date: 2026/07/07
+      date: 2026/06/30
       content: 1r
     Thu:
-      date: 2026/07/09
+      date: 2026/07/02
       content: 2r
   '2':
     Tue:
-      date: 2026/07/14
+      date: 2026/07/7
       content: 3r
     Thu:
-      date: 2026/07/16
+      date: 2026/07/09
       content: 4r
   '3':
     Tue:
-      date: 2026/07/21
+      date: 2026/07/14
       content: 5r
     Thu:
-      date: 2026/07/23
+      date: 2026/07/16
       content: 6r
   '4':
     Tue:
-      date: 2026/07/28
+      date: 2026/07/21
       content: 7r
     Thu:
-      date: 2026/07/30
+      date: 2026/07/23
       content: extendedOfficeHours
   '5':
     Tue:
-      date: 2026/08/04
+      date: 2026/07/28
       content: optionalWOP
     Thu:
-      date: 2026/08/06
+      date: 2026/07/30
       content: optionalWOP
 ---
