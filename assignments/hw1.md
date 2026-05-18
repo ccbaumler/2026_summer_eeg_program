@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Terminus treasure hunt
-permalink: /assignments/hw1
-nav_order: 1
+permalink: /assignments/hw02
+nav_order: 3
 parent: Assignments
 ---
 
-# Homework 1 **Due Wednesday May 20th at 12pm PST**{: .label .label-red }
+# Homework 2 **Due Friday, May 22th at 12pm PST**{: .label .label-red }
 
 In this homework, you will be practicing your Unix skills. These are foundational skills you will be using this throughout this course and your research extensively.
 

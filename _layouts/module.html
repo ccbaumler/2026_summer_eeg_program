@@ -1,4 +1,84 @@
+---
+layout: default
+---
 <h2 class="fs-4" id="{{ page.title | slugify }}" >{{ page.title }}</h2>
-<div class="module">
+<style>
+  /* 1. Hide bullets ONLY on the tab buttons and the outer tab containers */
+  ul.tab, ul.tab > li, ul.tab-content, ul.tab-content > li {
+    list-style: none !important;
+    list-style-type: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    background-image: none !important; 
+  }
+
+  /* 2. THE NUCLEAR OPTION: Destroy phantom bullets ONLY on the tab wrappers */
+  ul.tab > li::before,
+  ul.tab-content > li::before {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* 3. Line the buttons up left-to-right */
+  ul.tab {
+    display: flex !important;
+    gap: 15px;
+    border-bottom: 2px solid #e1e4e8;
+    margin-bottom: 0;
+  }
+
+  /* 4. Style the clickable links */
+  ul.tab > li > a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #555;
+    padding: 8px 12px;
+    display: block; 
+  }
+
+  /* 5. Highlight the active tab button */
+  ul.tab > li.active > a {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 3px solid #005cc5;
+  }
+
+  /* 6. Hide all content by default */
+  ul.tab-content > li {
+    display: none;
+    padding-top: 15px;
+  }
+
+  /* 7. Only show the content of the active tab */
+  ul.tab-content > li.active {
+    display: block;
+  }
+
+  /* 8. Make sure Markdown lists inside the tabs look normal */
+  ul.tab-content > li ul li {
+    list-style: disc !important;
+    list-style-type: disc !important;
+    margin-left: 1.5em !important;
+  }
+  ul.tab-content > li ul li::before {
+    display: none !important; /* Prevents double-bullets from Just the Docs */
+  }
+</style><div class="module">
   {{ content }}
+
+  <script src="{{ '/assets/js/tabs.js' | relative_url }}"></script>
+
+  <script>
+    window.addEventListener('load', function() {
+      console.log("Checking if the tabs.js file loaded...");
+      
+      if (typeof jekyllTabs !== 'undefined') {
+        console.log("SUCCESS! Found the tabs code. Starting it up!");
+        jekyllTabs.init();
+      } else {
+        console.error("FAIL! jekyllTabs is missing. The tabs.js file did not load.");
+      }
+    });
+  </script>
+
 </div>

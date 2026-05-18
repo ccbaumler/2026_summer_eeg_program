@@ -21,6 +21,7 @@ baseurl: '/2026_summer_eeg_program' # the subpath of your site, e.g. /blog
 url: 'https://ccbaumler.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", 'README.md', 'vendor/']
 logo: 
+img_path: '{{ site.baseurl }}/assets/images/'
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.10.1
@@ -70,6 +71,7 @@ defaults:
       type: modules
     values:
       layout: module
+      subpath: '/assets/images/'
   - scope:
       path: ''
       type: schedules
@@ -101,3 +103,4 @@ liquid:
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-tabs

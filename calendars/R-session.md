@@ -2,11 +2,11 @@
 layout: calendar
 title: R Workshop Calendar
 section: programming
-parent: Calendar
-permalink: /calendar/r
+parent: Calendars
+permalink: /calendars/r
 instructor: Colton Baumler
-location: Virtually (See announcement for Zoom Link)
-dates: TBD
+location: 1350 Storer Hall
+dates: Tuesday & Thursday 3:30 pm to 5 pm (PST)
 weeks:
   # Each key in this dictionary is a week, and then eaach week has a key in [Mon, Tue, Thu, Thu, Fri].
   # Each day has keys `date` and `content`. The date is shown on the schedule, and `content` is a key into the yml file in _data/modules.yml. `content` may be an array.

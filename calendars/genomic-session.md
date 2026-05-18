@@ -2,8 +2,8 @@
 layout: calendar
 title: Genomics Session Calendar
 section: genomics
-parent: Calendar
-permalink: /calendar/genomics
+parent: Calendars
+permalink: /calendars/genomics
 instructor: Colton
 location: Virtual (See announcement for Zoom Link)
 dates: Tuesday & Thursday 10 am (PST)/1 pm (EST)
