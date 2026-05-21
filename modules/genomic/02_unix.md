@@ -638,6 +638,12 @@ wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA_000005845.2_AS
 ```
 > `wget` is a special case where stdout and stderr have flags!
 
+or
+
+```bash
+curl https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA_000005845.2_ASM584v2/GCA_000005845.2_ASM584v2_genomic.fna.gz -o ecoli-curl.fa.gz
+```
+
 It is important to inspect the files.
 
 ```bash
@@ -663,6 +669,12 @@ But what about a larger file?
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR197/008/SRR1976948/SRR1976948_1.fastq.gz
 ```
 > This will take ~10 minutes to download
+
+or
+
+```bash
+curl ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR197/008/SRR1976948/SRR1976948_1.fastq.gz
+```
 
 ```bash
 gunzip -c SRR1976948_1.fastq.gz | head
