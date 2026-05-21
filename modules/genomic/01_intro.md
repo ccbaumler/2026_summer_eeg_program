@@ -434,11 +434,11 @@ The terminal lets you:
 
 Windows does not come with a built-in terminal. Instead, Microsoft opted to use the Windows commmand prompt called `powershell`. For our purposes, most computing clusters use a Unix-based system. Let's ignore Windows idiosyncrasies and download a Unix emulator called `Git Bash`.
 
-* In your browser, go to [https://git-scm.com/install/windows](https://git-scm.com/install/windows).
-* Click on *`Click here to download`*.
-* Follow the instructions to install Git Bash.
-* To launch Git Bash, open the start menu and search for “Git Bash” or select `Programs -> Git Bash`.
-* When the Git Bash opens, it will look something like this:
+- In your browser, go to [https://git-scm.com/install/windows](https://git-scm.com/install/windows).
+- Click on *`Click here to download`*.
+- Follow the instructions to install Git Bash.
+- To launch Git Bash, open the start menu and search for “Git Bash” or select `Programs -> Git Bash`.
+- When the Git Bash opens, it will look something like this:
 
 <br>
 <img src="{{ '/assets/images/bash.png' | relative_url }}" alt="Bash terminal">
