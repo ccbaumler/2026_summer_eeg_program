@@ -671,3 +671,13 @@ gunzip -c SRR1976948_1.fastq.gz | head
 ```bash
 gunzip -c SRR1976948_1.fastq.gz | grep "@SRR" | wc -l
 ```
+
+## Creating your account & connecting to OnDemand
+
+Create your account / adding yourself to **gmcoopgrp**
+
+Connect to [Hippo](https://hippo.ucdavis.edu/clusters)
+
+Choose 'farm'.
+
+There should be an option to create an account, or request access to another group. Select 'gmcoopgrp', and remove the SSH Key option.
