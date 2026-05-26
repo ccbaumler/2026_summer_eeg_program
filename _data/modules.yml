@@ -8,10 +8,10 @@
   name: Unix skills
   page: 
 2ag:
-  name: HPC skills
+  name: RNA-seq or genomics practice
   page: 
 2bg:
-  name: RNA-seq or genomics practice
+  name: HPC skills
   page: 
 h1g:
   name: Reflective Essay
@@ -20,8 +20,8 @@ h2g:
   name: Terminus treasure hunt
   page: /assignments/hw02
 h3g:
-  name: TBD
-  page:
+  name: Genomic Challenges
+  page: /assignments/hw03
 h4g:
   name: TBD
   page:
