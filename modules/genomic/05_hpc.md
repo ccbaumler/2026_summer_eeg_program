@@ -117,23 +117,51 @@ A question we will tackle later: how do you know how big a room you need (how mu
 
 ## Useful HPC commands
 
-{: .warning}
-> Need to add the formatting and background text to this section
+To connect to a remote computer through the terminal we securely log into them through the `ssh` command.
 
 ```bash
-ssh
+ssh -i <path-to-your-private-key> <username>@farm.cse.ucdavis.edu
+```
 
+To make the use of `ssh` (the "secure shell") simpler, create and edit a `config` file in the `.ssh` directory on your local computer.
+
+Input:
+
+```bash
 nano ~/.ssh/config
-ssh farm
+```
 
+Output:
+
+```bash
+Host farm
+   HostName farm.hpc.ucdavis.edu
+   User <username>
+   IdentityFile <path-to-your-private-key>
+```
+
+Now, logging in to a remote location is easier to type and remember.
+
+```bash
+ssh farm
+```
+
+The following commands are for the `Slurm` cluster managment and job scheduler used in UC Davis' HPC.
+
+```bash
 sinfo
 sbatch
 srun
 squeue
 scancel
+```
+> [Details for these commands are here!](https://slurm.schedmd.com/quickstart.html)
 
+Instead of installing software on your user partition and taking up precious memory, the HPC has pre-installed popular software. You can access this software with the `module` command.
+
+```bash
 module avail
-
 module avail | grep 'r'
 module avail | grep 'trimmomatic'
+module load trimmomatic
 ```
