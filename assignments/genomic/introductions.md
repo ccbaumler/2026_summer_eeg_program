@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Class Introductions
-permalink: /assignments/intros
+permalink: /assignments/genomic/intros
 nav_order: 1
-parent: Assignments
+parent: Genomic Assignments
+grand_parent: Assignments
 ---
 
 # In-class Introductions
