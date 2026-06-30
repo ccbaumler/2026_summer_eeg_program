@@ -45,9 +45,19 @@ R is a high level programming language born from the S statistical programming l
 
 R is traditionally run in the terminal in a REPL (read-eval-print-loop). Now-a-days, it is mainly use through the IDE preferred by the programmer. R code is stored in a `.r` file and may be run through the command line interface (CLI) or through an IDE of choice.
 
-### RMarkdown
+### Markdown
 
 Markdown is a specific type of markup language with the file extension `.md`. Markdown focuses on readability and simplicity. The raw markdown file is easily readable by a human. Unlike other markup languages like xml or html. There is limited syntax to remember but that allow for a well-formatted final document like this one which was written entirely in markdown! Markdown's simplicity and plain text formatting allows it to be extremely portable. A markdown file is language agnostic, or it can be read on any operating system (OS) and in any editor software. This also means that a markdown file is very unlikely to become out-dated or corrupted. In otherwords, markdown documents are future-proof.
+
+Let's learn markdown in ten minute!
+1. Go to [Common Mark](https://commonmark.org/).
+2. Skim the material on the home page.
+3. Click `LEARN MARKDOWN IN 60 SECONDS`.
+4. Skim that page.
+5. Click `TRY OUR 10 MINUTE MARKDOWN TUTORIAL`.
+6. Work through the tutorial...
+
+### RMarkdown
 
 RMarkdown files have the extension .Rmd and can be created in RStudio by going to `File > New File > RMarkdown`. RMarkdown files allow you to combine text, code, and output in a single document.
 
