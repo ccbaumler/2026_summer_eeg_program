@@ -1,7 +1,7 @@
 ---
 layout: module
-title: "Install, Setup, and Familiarize R/RStudio"
-permalink: /modules/r/setup
+title: "Research, Data, Metadata"
+permalink: /modules/r/research_data_metadata
 nav_order: 1
 parent: R modules
 grand_parent: Modules
